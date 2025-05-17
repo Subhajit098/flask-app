@@ -1,1 +1,11 @@
 # this is a new file added
+version: '1'
+
+services: 
+   app : 
+     image: myapp
+     build: 
+       context: .
+       dockerfile: Dockerfile-multi
+     ports: 
+       - "80:80"
