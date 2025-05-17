@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello Dosto, welcome to DevOps Zero To Hero (Junoon  Batch 9)'
+    return 'Hello all, this site is created only for demo purposes :) (Only for testing)'
 
 @app.route('/health')
 def health():
