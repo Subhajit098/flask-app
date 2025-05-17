@@ -3,7 +3,7 @@ version: '1'
 
 services: 
    app : 
-     image: myapp
+     image: variable07/my-app:latest
      build: 
        context: .
        dockerfile: Dockerfile-multi
